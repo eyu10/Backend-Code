@@ -28,7 +28,7 @@ def lambda_handler(event, context):
     )
     visitor_count = response['Item']['visitor_count']
     
-     return {
+    return {
         'statusCode': 200,
         'headers': {
             'Access-Control-Allow-Origin': '*'
